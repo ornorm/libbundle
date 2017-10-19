@@ -1,0 +1,38 @@
+{
+  "name": "libbundle",
+  "version": "1.0.0",
+  "description": "Manage localized resource bundle for browser",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ornorm/libbundle.git"
+  },
+  "keywords": [
+    "ResourceBundleEvent",
+    "ResourceBundleListener",
+    "ResourceBundleLoader",
+    "ResourceBundle",
+    "PropertyResourceBundle"
+  ],
+  "author": "Aime Biendo <abiendo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ornorm/libbundle/issues"
+  },
+  "homepage": "https://github.com/ornorm/libbundle#readme",
+  "dependencies": {
+    "eventslib": "^1.0.0",
+    "hjs-collection": "^1.0.0",
+    "hjs-core": "^1.0.0",
+    "hjs-io": "^1.0.0",
+    "libhttp": "^1.0.0",
+    "liblocale": "^1.0.0",
+    "libprops": "^1.0.0"
+  }
+}
